@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/CerebriSans-ExtraBold.ttf",
+      "sha1": "ef74f954e1e2884aa1ab91aa62b437370f59fa9e"
+    },
+    {
+      "path": "src/assets/fonts/CerebriSans-Regular.ttf",
+      "sha1": "08015e1c603dca5b9166f31e043d153f943965fa"
+    },
+    {
+      "path": "src/assets/fonts/FjallaOne-Regular.ttf",
+      "sha1": "94e51558f56f6330668ba6397e41cdaf44199f7e"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Thin.ttf",
+      "sha1": "4e63a47d2e8f26886bb414b9eb54b024742d20f2"
+    }
+  ]
+}
