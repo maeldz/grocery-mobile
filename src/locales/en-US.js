@@ -104,6 +104,7 @@ export default {
   last_name_placeholder: 'Last name',
   phone_placeholder: 'Phone',
   national_id_placeholder: 'National ID',
+  birthday_placeholder: 'Birthday',
   search_placeholder: 'Search...',
   addressee_placeholder: 'Addressee',
   zipcode_placeholder: 'Postal code',

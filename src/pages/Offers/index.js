@@ -96,7 +96,7 @@ export default function Offers({ navigation }) {
           }>
           <ProductImage
             source={{
-              uri: item.product.image.url.replace('localhost', '192.168.0.3'),
+              uri: item.product.image.url.replace('localhost', '192.168.0.5'),
             }}
           />
         </ImageContainer>

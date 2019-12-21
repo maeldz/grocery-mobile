@@ -45,15 +45,13 @@ export default function ProductDetails({ navigation }) {
         <ProductImageContainer>
           <ProductImage
             source={{
-              uri: productDetails.image.url.replace('localhost', '192.168.0.3'),
+              uri: productDetails.image.url.replace('localhost', '192.168.0.5'),
             }}
           />
         </ProductImageContainer>
         <ProductDetailsContainer>
           <ProductTitle>{productDetails.name}</ProductTitle>
-          <ProductInfo>{`${productDetails.priceFormatted}/${
-            productDetails.quantity
-          } ${productDetails.unit}`}</ProductInfo>
+          <ProductInfo>{`${productDetails.priceFormatted}/${productDetails.quantity} ${productDetails.unit}`}</ProductInfo>
         </ProductDetailsContainer>
         <ProductDescription>
           <ProductDescriptionText>

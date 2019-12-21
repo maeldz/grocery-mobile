@@ -104,6 +104,7 @@ export default {
   last_name_placeholder: 'Sobrenome',
   phone_placeholder: 'Telefone',
   national_id_placeholder: 'CPF',
+  birthday_placeholder: 'Nascimento',
   search_placeholder: 'Pesquisar...',
   addressee_placeholder: 'Destinatário',
   zipcode_placeholder: 'CEP',

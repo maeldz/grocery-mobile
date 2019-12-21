@@ -185,7 +185,7 @@ export default function ProfileForm({ handleFormSubmit, loading }) {
       </GenderContainer>
       <DateInput
         icon="birthday-cake"
-        placeholder="Nascimento"
+        placeholder={translate('birthday_placeholder')}
         autoCorrect={false}
         onDateChange={handleDateChange}
         onBlur={() => onBlur('birthday')}

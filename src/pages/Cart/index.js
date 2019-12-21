@@ -134,7 +134,7 @@ export default function Cart({ navigation }) {
                         source={{
                           uri: product.image.url.replace(
                             'localhost',
-                            '192.168.0.3',
+                            '192.168.0.5',
                           ),
                         }}
                       />

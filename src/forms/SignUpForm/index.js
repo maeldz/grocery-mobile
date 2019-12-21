@@ -157,7 +157,7 @@ export default function SignUpForm({ handleFormSubmit, loading }) {
               setGender({ female: false, male: true });
             }}>
             <TextButtonText disabled={gender.female} color="#2196f3">
-              Masculino
+              {translate('male_button')}
             </TextButtonText>
           </TextButton>
           <TextButton
@@ -165,14 +165,14 @@ export default function SignUpForm({ handleFormSubmit, loading }) {
               setGender({ female: true, male: false });
             }}>
             <TextButtonText disabled={gender.male} color="#ff4081">
-              Feminino
+              {translate('female_button')}
             </TextButtonText>
           </TextButton>
         </ButtonContainer>
       </GenderContainer>
       <DateInput
         icon="birthday-cake"
-        placeholder="Nascimento"
+        placeholder={translate('birthday_placeholder')}
         autoCorrect={false}
         onDateChange={handleDateChange}
         onBlur={() => onBlur('birthday')}

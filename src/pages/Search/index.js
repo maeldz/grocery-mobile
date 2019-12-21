@@ -96,7 +96,7 @@ export default function Search({ navigation }) {
           }>
           <ProductImage
             source={{
-              uri: item.image.url.replace('localhost', '192.168.0.3'),
+              uri: item.image.url.replace('localhost', '192.168.0.5'),
             }}
           />
         </ImageContainer>
@@ -168,11 +168,6 @@ export default function Search({ navigation }) {
           </SearchBar>
         </SearchBarContainer>
         <RenderList />
-        <SearchResultList
-          data={searchResult}
-          keyExtractor={item => String(item.id)}
-          renderItem={renderProduct}
-        />
       </Container>
     </Background>
   );
