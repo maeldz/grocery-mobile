@@ -1,5 +1,7 @@
 # Grocery - App para supermercados
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maeldz/grocery-mobile-react-native.svg)](https://greenkeeper.io/)
+
 ##  Screenshots
 
 <p align="center">
