@@ -18,7 +18,14 @@
 <img width="20%" src="https://user-images.githubusercontent.com/54718471/71315354-77363b00-2439-11ea-9907-2bd2fa36f30c.png">
 <img width="20%" src="https://user-images.githubusercontent.com/54718471/71315355-77363b00-2439-11ea-9d9d-b1754c90b0b8.png">
 <img width="20%" src="https://user-images.githubusercontent.com/54718471/71315356-77363b00-2439-11ea-9502-081e2bc0cbc1.png">
+<br>
+<br>
+<b>Emails de confirmação e cancelamento de compra</b>
+<img src="https://user-images.githubusercontent.com/54718471/71315956-cb93e780-2446-11ea-90f6-269af0a2c43a.png">
+<img src="https://user-images.githubusercontent.com/54718471/71315957-cc2c7e00-2446-11ea-9285-db91318d77fe.png">
 </p>
+
+
 
 ##  Scripts
 
