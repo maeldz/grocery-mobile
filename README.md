@@ -45,7 +45,7 @@ Realiza uma instalação limpa do app no dispositivo/emulador iOS conectado.
 
 ##  Observações
 
-Para desenvolvimento estou usando um replace em todos os links do app (ex: `{ uri: product.image.url.replace('localhost', '10.0.2.2') }`), pois dependendo da forma que você testando seu app o link do servidor local é reconhecido de maneira diferente. Por exemplo no emulador do android studio o localhost é 10.0.2.2, já no dispositivo físico é o gateway padrão da sua máquina e no iOS é localhost mesmo.
+Em desenvolvimento para a plataforma android, caso você esteja usando um serivodr local, você terá usar um replace em todas urls que a aplicação se conecta por exemplo: `{ uri: product.image.url.replace('localhost', '10.0.2.2') }`, pois dependendo da forma que você testando seu app o link do servidor local é reconhecido de maneira diferente. Por exemplo no emulador do android studio o localhost é 10.0.2.2, já no dispositivo físico é o gateway padrão da sua máquina e no iOS é localhost mesmo.
 
 Arquivos que precisarão ser mudados dependendo do ambiente de desenvolvimento:
 
