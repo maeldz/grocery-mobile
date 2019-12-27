@@ -117,11 +117,7 @@ export default function Orders({ navigation }) {
           </AnimationContainer>
           <NoOrdersTextContainer>
             <NoOrdersText>{translate('no_orders_text')}</NoOrdersText>
-            <NoOrdersSubText>
-              {translate(
-                'Quando você tiver pedidos, mostraremos aqui seu andamento e status',
-              )}
-            </NoOrdersSubText>
+            <NoOrdersSubText>{translate('no_orders_sub_text')}</NoOrdersSubText>
           </NoOrdersTextContainer>
         </NoOrders>
       );
