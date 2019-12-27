@@ -132,10 +132,7 @@ export default function Cart({ navigation }) {
                     <ProductDetails>
                       <ProductImage
                         source={{
-                          uri: product.image.url.replace(
-                            'localhost',
-                            '192.168.0.5',
-                          ),
+                          uri: product.image.url,
                         }}
                       />
                       <ProductInfo>

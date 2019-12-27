@@ -45,7 +45,7 @@ export default function ProductDetails({ navigation }) {
         <ProductImageContainer>
           <ProductImage
             source={{
-              uri: productDetails.image.url.replace('localhost', '192.168.0.5'),
+              uri: productDetails.image.url,
             }}
           />
         </ProductImageContainer>

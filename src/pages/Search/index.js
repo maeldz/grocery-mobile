@@ -96,7 +96,7 @@ export default function Search({ navigation }) {
           }>
           <ProductImage
             source={{
-              uri: item.image.url.replace('localhost', '192.168.0.5'),
+              uri: item.image.url,
             }}
           />
         </ImageContainer>

@@ -74,7 +74,7 @@ export default function Home({ navigation }) {
 
       const bannerData = bannersResponse.data.map(banner => ({
         id: banner.id,
-        url: banner.image.url.replace('localhost', '192.168.0.5'),
+        url: banner.image.url,
       }));
 
       setProducts(productData);
@@ -101,7 +101,7 @@ export default function Home({ navigation }) {
           }>
           <CategoryImage
             source={{
-              uri: item.image.url.replace('localhost', '192.168.0.5'),
+              uri: item.image.url,
             }}
           />
         </CategoryImageContainer>
@@ -119,7 +119,7 @@ export default function Home({ navigation }) {
           }>
           <ProductImage
             source={{
-              uri: item.image.url.replace('localhost', '192.168.0.5'),
+              uri: item.image.url,
             }}
           />
         </ImageContainer>

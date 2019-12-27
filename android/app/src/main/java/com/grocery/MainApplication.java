@@ -1,4 +1,4 @@
-package com.mobile;
+package com.grocery;
 
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 import android.app.Application;
