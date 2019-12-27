@@ -45,7 +45,7 @@ Realiza uma instalação limpa do app no dispositivo/emulador iOS conectado.
 
 ##  Observações
 
-Em desenvolvimento para a plataforma android, caso você esteja usando um serivodr local, você terá usar um replace em todas urls que a aplicação se conecta por exemplo: `{ uri: product.image.url.replace('localhost', '10.0.2.2') }`, pois dependendo da forma que você testando seu app o link do servidor local é reconhecido de maneira diferente. Por exemplo no emulador do android studio o localhost é 10.0.2.2, já no dispositivo físico é o gateway padrão da sua máquina e no iOS é localhost mesmo.
+Em desenvolvimento para a plataforma android, caso você esteja usando um servidor local, você terá que usar um replace em todas urls que a aplicação se conecta, como por exemplo: `{ uri: product.image.url.replace('localhost', '10.0.2.2') }`, pois dependendo da forma que você está testando seu app o link do servidor local é reconhecido de maneira diferente. Por exemplo no emulador do android studio o localhost é 10.0.2.2, já no dispositivo físico é o gateway padrão da sua máquina e no iOS é localhost mesmo.
 
 Arquivos que precisarão ser mudados dependendo do ambiente de desenvolvimento:
 
@@ -64,6 +64,6 @@ src/pages/Search.js - linha 99
 src/services/api.js - linha 4
 <br>
 
-*Em api.js, a propriedade baseURL se refere ao endereço da sua api e em ReactotronConfig.js, a propriedade host se refere ao host de conexão do Reactotron, que também será o gateway padrão da sua máquina.
+*Em api.js, a propriedade baseURL se refere ao endereço da sua api e em ReactotronConfig.js, o objeto com propriedade host se refere ao host de conexão do Reactotron, que também será o gateway padrão da sua máquina.
 <br>
 *Em ambiente de produção você pecisará remover todos replaces.
