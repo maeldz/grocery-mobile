@@ -25,7 +25,7 @@
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "16.12.0",
-    "react-native": "0.61.5",
+    "react-native": "0.62.0",
     "react-native-gesture-handler": "^1.5.3",
     "react-native-linear-gradient": "^2.5.6",
     "react-native-reanimated": "^1.4.0",
