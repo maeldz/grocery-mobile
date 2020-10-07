@@ -47,7 +47,7 @@
     "rn-placeholder": "^3.0.0",
     "styled-components": "^4.4.1",
     "yarn": "^1.19.2",
-    "yup": "^0.28.0"
+    "yup": "^0.29.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
